@@ -1,0 +1,78 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: #0a1013de;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: rgb(33, 79, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    padding-top:10%;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.numberRoman{
+    line-height: 1.8rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 50%;
+    font-size: 18px;
+    font-weight: 600;
+    color:  rgb(33, 79, 204);
+}
+.btn-convert{
+    line-height: 2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #2edbdb;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color,background-color .5s ease-in-out;
+    
+}
+.btn-convert:hover{
+    color: #2edbdb;
+    background-color: #fff;
+}
+.app{
+    position: absolute;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+   top: 320px;
+}
+.app h4{
+    width: 100%;
+    line-height: 32px;
+    border-radius: 15px;
+    background-color:white;
+    opacity: 0.7;
+    text-align: center;
+    color: #2edbdb;
+    transition: color,background-color .5s ease-in-out;
+    cursor: pointer;
+}
+
+.info{
+    position: absolute;
+    top: 10%;
+}

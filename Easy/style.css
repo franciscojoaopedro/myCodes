@@ -1,0 +1,177 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #042846de;
+    color: #ffff
+}
+.form{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border: 2px solid rgb(0, 204, 255);
+    position: relative;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 557px;
+    margin: 108px 35%;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form,h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.form .datanascimento{
+    width: 180px;
+    line-height: 1.8rem;
+    color: grey;
+}
+button.btnLicensa{
+    border: none;
+    border-radius: 5px;
+    line-height: 1.8rem;
+    width: 100%;
+    background-color: #4ae6d99f;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form .groupInput,.btnLicensa{
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 6px;
+}
+.form .groupInput,input,.btnLicensa{
+    border: 0;
+    border-radius: 5px;
+    line-height: 1.8rem;
+
+}
+button.btnAdicionar{
+
+    border: none;
+    border-radius: 5px;
+    line-height: 1.8rem;
+    width: 50%;
+    background-color: #00ccff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 23px 23%;
+    right: 80px;
+}
+
+.s-user{
+    position: relative;
+    padding-bottom: 110px;
+    margin: 0% 5% 0% 5%;
+    border: 2px solid #00ffd5;
+    border-radius: 20px;
+    background-color: #042846de;
+}
+.card-users{
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 30px 30px;
+
+   
+}
+
+
+.card-user{
+    position: relative;
+    width: 200px;
+    height: 210px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.image img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #00ccff;
+    border-radius: 5px ;
+    background-color: transparent;
+    position: absolute;
+    right: 3%;
+    top: 3%;
+}
+
+button.btnGetUser{
+    border: none;
+    border-radius: 5px;
+    line-height: 2.8rem;
+    width: 20%;
+    background-color: #00ffd5;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 12px 0%;
+}
+
+
+.card-box{
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+.btn-user{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 10% 0% 10%;
+    width: 80%;
+    height: 50px;
+    border: 2px #00ffd5;
+    border-radius: 20px;
+    background-color: #00ccff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.btn-user{
+
+}
+@media(max-width:964px){
+    .card-users{
+        padding: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 30px 30px;
+       
+    }
+
+.card-user{
+    position: relative;
+    width: 170px;
+    height: 210px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.card-box{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
